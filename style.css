@@ -353,7 +353,7 @@ left:0;
   top:4%;
   z-index:999;
   font-size: 25px;
-  color:var(--red);
+  color:var(--orange);
   cursor:pointer;
 
 }
@@ -362,10 +362,15 @@ left:0;
 }
 .slider-container .navbar button{
   position:absolute;
-  top: 50%;
-  left: 50%;
+  top: 4%;
+  left: 30%;
   transform:translateX(-50%);
-  border: 2px solid var(--red);
+  border: 2px solid var(--orange);
 }
+.slider-container .navbar button:hover{
+ 
+ background:var(orange);
+}
+
 
 }
