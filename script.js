@@ -38,3 +38,22 @@ sliderTabs.forEach((tab, index) => {
 });
 updateIndicator(sliderTabs[0], 0);
 window.addEventListener("resize", () => updateIndicator(sliderTabs[swiper.activeIndex], 0));
+
+
+// NAVBAR
+
+let baricon= document.querySelector(".baricon");
+let navbar = document.querySelector(".slider-container .navbar");
+let bariconClose = document.querySelector(".bariconclose");
+
+console.log(navbar);
+
+baricon.addEventListener("click",function(){
+navbar.style.display = "block";
+baricon.style.display = "none";
+})
+
+function closenavbar(){
+  navbar.style.display = "none";
+  baricon.style.display = "block";
+}
