@@ -361,11 +361,7 @@ left:0;
   display: block;
 }
 .slider-container .navbar button{
-  position:absolute;
-  top: 4%;
-  left: 30%;
-  transform:translateX(-50%);
-  border: 2px solid var(--orange);
+display:none;
 }
 .slider-container .navbar button:hover{
  
