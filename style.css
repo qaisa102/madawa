@@ -368,5 +368,7 @@ display:none;
  background:var(orange);
 }
 
-
+.slider-item .slide-content .slide-title{
+  font-size:1.3rem;
+}
 }
